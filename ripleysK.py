@@ -76,7 +76,7 @@ class RipleysK:
         T = self._make_iterable(T)
         T = np.fromiter(T, float)
         if np.any(T < 0):
-            raise (f'T cannot contain negative values.')
+            raise ValueError('T cannot contain negative values.')
         return T
 
     def csr(self, T):
