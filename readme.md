@@ -31,3 +31,5 @@ trainer.py: General class to train models
 minst_example.py: Example on the MINST data set
 
 ripleysK.py: Base implementation of Ripley's K. To be extended with correction methods.
+
+graph_builder module: module to construct graphs from cellmasks. No running example available, only examples on how us the module in `example.py` file.
